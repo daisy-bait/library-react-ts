@@ -1,4 +1,4 @@
-import Button from "./shared/components/button/Button";
+import Button from './shared/components/button/Button';
 import './shared/styles/buttons/Buttons.css';
 
 function App() {
