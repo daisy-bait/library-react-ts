@@ -1,10 +1,10 @@
 import Button from "./shared/components/button/Button";
-import { yellowButton } from "./shared/styles/buttons/YellowButton";
+import './shared/styles/buttons/Buttons.css';
 
 function App() {
   return (
     <>
-    <Button style={yellowButton} text="Hello bro" />
+    <Button class="yellow-button" text="Hello bro" />
     </>
   );
 }

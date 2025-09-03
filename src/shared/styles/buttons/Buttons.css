@@ -1,0 +1,26 @@
+.yellow-button {
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 50px 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.yellow-button:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.yellow-button:hover:after {
+  top: 0px;
+  left: 0px;
+}
