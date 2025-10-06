@@ -1,10 +1,9 @@
-import Button from './shared/components/button/Button';
-import './shared/styles/buttons/Buttons.css';
+import Navbar from "./shared/components/Navbar";
 
 function App() {
   return (
     <>
-    <Button class="yellow-button" text="Hello bro" />
+    <Navbar />
     </>
   );
 }

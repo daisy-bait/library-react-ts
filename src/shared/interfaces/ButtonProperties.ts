@@ -1,8 +1,7 @@
-import type { CSSProperties } from "react";
 
 export interface ButtonProperties {
-    style?: CSSProperties | undefined,
     class?: string | undefined,
+    type: "button" | "submit",
     text: string,
-    type?: "button" | "submit",
+    parentMethod?: () => void,
 }
